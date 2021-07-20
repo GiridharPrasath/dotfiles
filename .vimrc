@@ -1,1 +1,0 @@
-/home/giridhar/.vim/vimrc
