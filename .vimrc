@@ -22,7 +22,7 @@ colorscheme evening
 "=====================================================
 "" AirLine settings
 "=====================================================
-let g:airline_theme='base16_eighties'
+let g:airline_theme='luna'
 set noswapfile
 "vim diff part"
 if &diff

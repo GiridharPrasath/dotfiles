@@ -195,7 +195,7 @@ bar {
     font pango:DejaVu Sans Mono, FontAwesome 12
     position top
     strip_workspace_numbers yes
-    status_command /home/giridhar/.cargo/bin/i3status-rs ~/.config/i3status-rust/config.toml
+    status_command i3blocks -c ~/.config/i3/i3blocks.conf
     colors {
         separator #666666
         background #222222
@@ -211,5 +211,4 @@ bar {
 
 bindsym $mod+Return exec gnome-terminal --working-directory="`xcwd`"
 #my-configs
-exec --no-startup-id xrandr --output HDMI-1 --mode 1600x900 --rate 75 #samsung-s20b300
 exec --no-startup-id xrandr --output HDMI-1 --auto --left-of eDP-1
